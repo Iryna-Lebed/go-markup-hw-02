@@ -29,10 +29,7 @@ button {
     overflow: hidden;
   }
 /* ===========header========== */
-.header {
-}
-.header-navigatoin {
-}
+
 
 .header-logo {
     
@@ -65,8 +62,6 @@ button {
     color: #404bbf
 }
 
-.header-menu-item {
-}
 
    
 
@@ -88,8 +83,7 @@ button {
     color: #404bbf
 }
 
-.contacts-item {
-}
+
 /* =========hero============= */
 .hero-logo {
    
@@ -113,20 +107,11 @@ button {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF 
-    cursor: pointer 
+
 }
 
 /* ============categories======== */
-.categories {
-}
-.categories-title {
-}
 
-
-.categories-list {
-}
-.categories-item {
-}
 .categories-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -160,10 +145,7 @@ button {
 .team-list {
     background-color: #FFFFFF
 }
-.team-item {
-}
-.team-images {
-}
+
 .team-subtitle {
   
     font-weight: 500;
@@ -183,16 +165,7 @@ button {
 }
 /* =============portfolio======== */
 
-.Our-Portfolio {
-}
 
-.Portfolio-list {
-}
-.Portfolio-item {
-
-}
-.Portfolio-imeges {
-}
 .Portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
