@@ -15,37 +15,22 @@ a {
 button {
     cursor: pointer;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+
 /* ===========header========== */
 
 
 .header-logo {
-    
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
-    
 }
 
-.header-logo-cursive {
-    color: #4d5ae5;
-}
+
+
 .header-logo-studio {
     color: #2e2f42;
 }
@@ -70,7 +55,7 @@ button {
     font-style: normal
 }
 
-.contacts-list a {
+.contacts-link a {
    
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -78,8 +63,8 @@ button {
     font-size: 16px;
     font-style: normal;
 }
-.contacts-list a:focus,
-.contacts-list a:hover {
+.contacts-link a:focus,
+.contacts-link a:hover {
     color: #404bbf
 }
 
@@ -120,6 +105,9 @@ button {
     color: #2e2f42;
 
 }
+.categories-list {
+    background-color: #FFFFFF
+}
 
 .categories-text {
     
@@ -136,11 +124,12 @@ button {
 .team-title {
   
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+ 
 }
 .team-list {
     background-color: #FFFFFF
@@ -166,14 +155,14 @@ button {
 /* =============portfolio======== */
 
 
-.Portfolio-subtitle {
+.portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.Portfolio-text {
+.portfolio-text {
     
     font-size: 16px;
     line-height: 1.5;
@@ -190,7 +179,7 @@ button {
 }
 .footer-item {
     font-family: "Raleway", sans-serif;
-   
+    font-weight: 700
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -208,6 +197,4 @@ button {
 .footer-logo-studio {
     color: #f4f4fd;
 }
-.footer-logo-web {
-    color: #4d5ae5;
-}
+
